@@ -10,6 +10,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { ChildAComponent } from './child-a/child-a.component';
 import { ChildBComponent } from './child-b/child-b.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,5 +26,6 @@ import { ChildBComponent } from './child-b/child-b.component';
   ],
   providers: [],
   bootstrap: [AppComponent]
+  
 })
 export class AppModule { }
