@@ -114,3 +114,9 @@
     margin-top: 2px;
     color: white;
   }
+
+  .nav-tab{
+        white-space:nowrap;
+        height: 40px;color: white;
+        cursor: pointer;
+  }
