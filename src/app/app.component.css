@@ -104,7 +104,7 @@
     }
   }
   
-  .wrapper-sigla{
+  .sigla-eshop{
     float: right;
     text-align: center;
     border: solid 1px white;
@@ -113,10 +113,26 @@
     padding: 5px;
     margin-top: 2px;
     color: white;
+    white-space:nowrap;
+    cursor: pointer;
   }
 
   .nav-tab{
         white-space:nowrap;
-        height: 40px;color: white;
+        color: white;
         cursor: pointer;
+        padding: 0px 15px 0px 15px;
+  }
+
+  .chart-num{
+        margin: -28px 0px 0px 17px;
+        font-weight: bolder;
+        background: #a73434;
+        border-radius: 50%;
+        width: 13px;
+        height: 12px;
+        padding-left: 2px;
+        padding-top: 0px;
+        font-size: 9px;
+        color: white;
   }

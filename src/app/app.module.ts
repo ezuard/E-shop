@@ -14,6 +14,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { AngularSvgIconModule } from 'angular-svg-icon';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ProfiloComponent } from './profilo/profilo.component';
+import { OrdiniComponent } from './ordini/ordini.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     SecondpageComponent,
     HomepageComponent,
     ChildAComponent,
-    ChildBComponent
+    ChildBComponent,
+    ProfiloComponent,
+    OrdiniComponent
   ],
   imports: [
     BrowserModule,
